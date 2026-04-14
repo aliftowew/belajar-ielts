@@ -359,169 +359,213 @@ TOM: Same. We should book a study room together next week.`,
     }],
   },
   {
-    id: "cam18", book: 18, title: "Cambridge IELTS 18", type: "Academic",
+    id: "cam19", book: 19, title: "Cambridge IELTS 19", type: "Academic",
     tests: [{
-      id: "cam18_t1", testNumber: 1,
+      id: "cam19_t1", testNumber: 1,
       reading: { passages: [
         {
-          id: "cam18_t1_p1", passageNumber: 1,
-          title: "Urban farming",
-          subtitle: "In Paris, urban farmers are trying a soil-free approach to agriculture that uses less space and fewer resources. Could it help cities face the threats to our food supplies?",
-          text: `On top of a striking new exhibition hall in southern Paris, the world's largest urban rooftop farm has started to bear fruit. Strawberries that are small, intensely flavoured and resplendently red sprout abundantly from large plastic tubes. Peer inside and you see the tubes are completely hollow, the roots of dozens of strawberry plants dangling down inside them. From identical vertical tubes nearby burst row upon row of lettuces; near those are aromatic herbs, such as basil, sage and peppermint. Opposite, in narrow, horizontal trays packed not with soil but with coconut fibre, grow cherry tomatoes, shiny aubergines and brightly coloured chards.
+          id: "cam19_t1_p1", passageNumber: 1,
+          title: "How tennis rackets have changed",
+          subtitle: "",
+          text: `In 2016, the British professional tennis player Andy Murray was ranked as the world's number one. It was an incredible achievement by any standard — made even more remarkable by the fact that he did this during a period considered to be one of the strongest in the sport's history, competing against the likes of Rafael Nadal, Roger Federer and Novak Djokovic, to name just a few. Yet five years previously, he had been regarded as a talented outsider who entered but never won the major tournaments.
 
-Pascal Hardy, an engineer and sustainable development consultant, began experimenting with vertical farming and aeroponic growing towers — as the soil-free plastic tubes are known — on his Paris apartment block roof five years ago. The urban rooftop space above the exhibition hall is somewhat bigger: 14,000 square metres and almost exactly the size of a couple of football pitches. Already, the team of young urban farmers who tend it have picked, in one day, 3,000 lettuces and 150 punnets of strawberries. When the remaining two thirds of the vast open area are in production, 20 staff will harvest up to 1,000 kg of perhaps 35 different varieties of fruit and vegetables, every day. 'We're not ever, obviously, going to feed the whole city this way,' cautions Hardy. 'In the urban environment you're working with very significant practical constraints, clearly, on what you can do and where. But if enough unused space can be developed like this, there's no reason why you shouldn't eventually target maybe between 5% and 10% of consumption.'
+  Of the changes that account for this transformation, one was visible and widely publicised: in 2011, Murray invited former number one player Ivan Lendl onto his coaching team — a valuable addition that had a visible impact on the player's playing style. Another change was so subtle as to pass more or less unnoticed. Like many players, Murray has long preferred a racket that consists of two types of string: one for the mains (verticals) and another for the crosses (horizontals). While he continued to use natural string in the crosses, in 2012 he switched to a synthetic string for the mains. A small change, perhaps, but its importance should not be underestimated.
 
-Perhaps most significantly, however, this is a real-life showcase for the work of Hardy's flourishing urban agriculture consultancy, Agripolis, which is currently fielding enquiries from around the world to design, build and equip a new breed of soil-free inner-city farm. 'The method's advantages are many,' he says. 'First, I don't much like the fact that most of the fruit and vegetables we eat have been treated with something like 17 different pesticides, or that the intensive farming techniques that produced them are such huge generators of greenhouse gases. I don't much like the fact, either, that they've travelled an average of 2,000 refrigerated kilometres to my plate, that their quality is so poor, because the varieties are selected for their capacity to withstand such substantial journeys, or that 80% of the price I pay goes to wholesalers and transport companies, not the producers.'
+  The modification that Murray made is just one of a number of options available to players looking to tweak their rackets in order to improve their games. 'Touring professionals have their rackets customised to their specific needs,' says Colin Triplow, a UK-based professional racket stringer. 'It's a highly important part of performance maximisation.' Consequently, the specific rackets used by the world's elite are not actually readily available to the public; rather, each racket is individually made to suit the player who uses it. Take the US professional tennis players Mike and Bob Bryan, for example: 'We're very particular with our racket specifications,' they say. 'All our rackets are sent from our manufacturer to Tampa, Florida, where our frames go through a... thorough customisation process.' They explain how they have adjusted not only racket length, but even experimented with different kinds of paint. The rackets they use now weigh more than the average model and also have a denser string pattern (i.e. more crosses and mains).
 
-Produce grown using this soil-free method, on the other hand — which relies solely on a small quantity of water, enriched with organic nutrients, pumped around a closed circuit of pipes, towers and trays — is 'produced up here, and sold locally, just down there. It barely travels at all,' Hardy says. 'You can select crop varieties for their flavour, not their resistance to the transport and storage chain, and you can pick them when they're really at their best, and not before.' No soil is exhausted, and the water that gently showers the plants' roots every 12 minutes is recycled, so the method uses 90% less water than a classic intensive farm for the same yield.
+  The primary reason for these modifications is simple: as the line between winning and losing becomes thinner and thinner, even these slight changes become more and more important. As a result, players and their teams are becoming increasingly creative with the modifications to their rackets as they look to maximise their competitive advantage.
 
-Urban farming is not, of course, a new phenomenon. Inner-city agriculture is booming from Shanghai to Detroit and Tokyo to Bangkok. Strawberries are being grown in disused shipping containers, mushrooms in underground carparks. Aeroponic farming, he says, is 'virtuous'. The equipment weighs little, can be installed on almost any flat surface and is cheap to buy: roughly €100 to €150 per square metre. It is cheap to run, too, consuming a tiny fraction of the electricity used by some techniques.
+  Racket modifications mainly date back to the 1970s, when the amateur German tennis player Werner Fischer started playing with the so-called spaghetti-strung racket. It created a string bed that generated so much topspin that it was quickly banned by the International Tennis Federation. However, within a decade or two, racket modification became a regularity. Today it is, in many ways, an aspect of the game that is equal in significance to nutrition or training.
 
-Produce grown this way typically sells at prices that, while generally higher than those of classic intensive agriculture, are lower than soil-based organic growers. There are limits to what farmers can grow this way, of course, and much of the produce is suited to the summer months. 'Root vegetables we cannot do, at least not yet,' he says. 'Radishes are OK, but carrots, potatoes, that kind of thing — the roots are simply too long. Fruit trees are obviously not an option. And beans tend to take up a lot of space for not much return.' Nevertheless, urban farming of the kind being practised in Paris is one part of a bigger and fast-changing picture that is bringing food production closer to our lives.`,
+  Modifications can be divided into two categories: those to the string bed and those to the racket frame. The former is far more common than the latter: the choice of the strings and the tension with which they are installed is something that nearly all professional players experiment with. They will continually change it depending on various factors including the court surface, climatic conditions, and game styles. Some will even change it depending on how they feel at the time.
+
+  At one time, all tennis rackets were strung with natural gut made from the outer layer of sheep or cow intestines. This all changed in the early 1990s with the development of synthetic strings that were cheaper and more durable. They are made from three materials: nylon (relatively durable and affordable), Kevlar (too stiff to be used alone) or co-polyester (polyester combined with additives that enhance its performance). Even so, many professional players continue to use a 'hybrid set-up', where a combination of both synthetic and natural strings are used.
+
+  Of the synthetics, co-polyester is by far the most widely used. It's a perfect fit for the style of tennis now played, where players tend to battle it out from the back of the court rather than coming to the net. Studies indicate that the average spin from a co-polyester string is 25% greater than that from natural string or other synthetics. In a sense, the development of co-polyester strings has revolutionised the game.
+
+  However, many players go beyond these basic adjustments to the strings and make changes to the racket frame itself. For example, much of the serving power of US professional player Pete Sampras was attributed to the addition of four to five lead weights onto his rackets, and today many professionals have the weight adjusted during the manufacturing process.
+
+  Other changes to the frame involve the handle. Players have individual preferences for the shape of the handle and some will have the handle of one racket moulded onto the frame of a different racket. Other players make different changes. The professional Portuguese player Gonçalo Oliveira replaced the original grips of his rackets with something thinner because they had previously felt uncomfortable to hold.
+
+  Racket customisation and modification have pushed the standards of the game to greater levels that few could have anticipated in the days of natural strings and heavy, wooden frames, and it's exciting to see what further developments there will be in the future.`,
           questionGroups: [
-            { type: "SENTENCE_COMPLETION",
-              instruction: "Complete the sentences below.",
-              subInstruction: "Choose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer.",
-              questions: [
-                { number: 1, text: "Vertical tubes are used to grow strawberries, ___ and herbs.", answer: "lettuces" },
-                { number: 2, text: "There will eventually be a daily harvest of as much as ___ weight of fruit and vegetables.", answer: "1,000 kg" },
-                { number: 3, text: "It may be possible that the farm's produce will account for as much as 10% of the city's ___ overall.", answer: "consumption" },
-              ]},
-            { type: "NOTE_COMPLETION",
-              instruction: "Complete the table below.",
-              subInstruction: "Choose ONE WORD ONLY from the passage for each answer.",
-              questions: [
-                { number: 4, text: "Intensive farming — Growth: techniques pollute air; ___ used", answer: "pesticides" },
-                { number: 5, text: "Intensive farming — Selection: varieties chosen that can survive long ___", answer: "journeys" },
-                { number: 6, text: "Intensive farming — Sale: ___ receive very little of overall income", answer: "producers" },
-                { number: 7, text: "Aeroponic urban farming — Selection: produce chosen because of its ___", answer: "flavour" },
-              ]},
             { type: "TFNG",
               instruction: "Do the following statements agree with the information given in Reading Passage 1?",
-              subInstruction: "Write TRUE if the statement agrees, FALSE if it contradicts, NOT GIVEN if no information.",
+              subInstruction: "Write TRUE if the statement agrees, FALSE if it contradicts, NOT GIVEN if there is no information.",
               questions: [
-                { number: 8, text: "Urban farming can take place above or below ground.", answer: "TRUE" },
-                { number: 9, text: "Some of the equipment used in aeroponic farming can be made by hand.", answer: "NOT GIVEN" },
-                { number: 10, text: "Urban farming relies more on electricity than some other types of farming.", answer: "FALSE" },
-                { number: 11, text: "Fruit and vegetables grown on an aeroponic urban farm are cheaper than traditionally grown organic produce.", answer: "TRUE" },
-                { number: 12, text: "Most produce can be grown on an aeroponic urban farm at any time of the year.", answer: "FALSE" },
-                { number: 13, text: "Beans take longer to grow on an urban farm than other vegetables.", answer: "NOT GIVEN" },
+                { number: 1, text: "People had expected Andy Murray to become the world's top tennis player for at least five years before 2016.", answer: "FALSE" },
+                { number: 2, text: "The change that Andy Murray made to his rackets attracted a lot of attention.", answer: "FALSE" },
+                { number: 3, text: "Most of the world's top players take a professional racket stringer on tour with them.", answer: "NOT GIVEN" },
+                { number: 4, text: "Mike and Bob Bryan use rackets that are light in comparison to the majority of rackets.", answer: "FALSE" },
+                { number: 5, text: "Werner Fischer played with a spaghetti-strung racket that he designed himself.", answer: "NOT GIVEN" },
+                { number: 6, text: "The weather can affect how professional players adjust the strings on their rackets.", answer: "TRUE" },
+                { number: 7, text: "It was believed that the change Pete Sampras made to his rackets contributed to his strong serve.", answer: "TRUE" },
               ]},
-          ],
-        },
-        {
-          id: "cam18_t1_p2", passageNumber: 2,
-          title: "Forest management in Pennsylvania, USA",
-          subtitle: "How managing low-quality wood (also known as low-use wood) for bioenergy can encourage sustainable forest management",
-          text: `A A tree's 'value' depends on several factors including its species, size, form, condition, quality, function, and accessibility, and depends on the management goals for a given forest. The same tree can be valued very differently by each person who looks at it. A large, straight black cherry tree has high value as timber to be cut into logs or made into furniture, but for a landowner more interested in wildlife habitat, the real value of that stem (or trunk) may be the food it provides to animals. Likewise, if the tree suffers from black knot disease, its value for timber decreases, but to a woodworker interested in making bowls, it brings an opportunity for a unique and beautiful piece of art.
-
-B In the past, Pennsylvania landowners were solely interested in the value of their trees as high-quality timber. The norm was to remove the stems of highest quality and leave behind poorly formed trees that were not as well suited to the site where they grew. This practice, called 'high-grading', has left a legacy of 'low-use wood' in the forests. Some people even call these 'junk trees', and they are abundant in Pennsylvania. These trees have lower economic value for traditional timber markets, compete for growth with higher-value trees, shade out desirable regeneration and decrease the health of a stand leaving it more vulnerable to poor weather and disease. Management that specifically targets low-use wood can help landowners manage these forest health issues, and wood energy markets help promote this.
-
-C Wood energy markets can accept less expensive wood material of lower quality than would be suitable for traditional timber markets. Most wood used for energy in Pennsylvania is used to produce heat or electricity through combustion. Many schools and hospitals use wood boiler systems to heat and power their facilities, many homes are primarily heated with wood, and some coal plants incorporate wood into their coal streams to produce electricity. Wood can also be gasified for electrical generation and can even be made into liquid fuels like ethanol and gasoline for lorries and cars. All these products are made primarily from low-use wood. Several tree- and plant-cutting approaches, which could greatly improve the long-term quality of a forest, focus strongly or solely on the use of wood for those markets.
-
-D One such approach is called a Timber Stand Improvement (TSI) Cut. In a TSI Cut, really poor-quality tree and plant material is cut down to allow more space, light, and other resources to the highest-valued stems that remain. Removing invasive plants might be another primary goal of a TSI Cut. The stems that are left behind might then grow in size and develop more foliage and larger crowns or tops that produce more coverage for wildlife; they have a better chance to regenerate in a less crowded environment. TSI Cuts can be tailored to one farmer's specific management goals for his or her land.
-
-E Another approach that might yield a high amount of low-use wood is a Salvage Cut. With the many pests and pathogens visiting forests including hemlock wooly adelgid, Asian longhorned beetle, emerald ash borer, and gypsy moth, to name just a few, it is important to remember that those working in the forests can help ease these issues through cutting procedures. These types of cut reduce the number of sick trees and seek to manage the future spread of a pest problem. They leave vigorous trees that have stayed healthy enough to survive the outbreak.
-
-F A Shelterwood Cut, which only takes place in a mature forest that has already been thinned several times, involves removing all the mature trees when other seedlings have become established. This then allows the forester to decide which tree species are regenerated. It leaves a young forest where all trees are at a similar point in their growth. It can also be used to develop a two-tier forest so that there are two harvests and the money that comes in is spread out over a decade or more.
-
-G Thinnings and dense and dead wood removal for fire prevention also center on the production of low-use wood. However, it is important to remember that some retention of what many would classify as low-use wood is very important. The tops of trees that have been cut down should be left on the site so that their nutrients cycle back into the soil. In addition, trees with many cavities are extremely important habitats for insect predators like woodpeckers, bats and small mammals. They help control problem insects and increase the health and resilience of the forest. It is also important to remember that not all small trees are low-use. For example, many species like hawthorn provide food for wildlife. Finally, rare species of trees in a forest should also stay behind as they add to its structural diversity.`,
-          questionGroups: [
-            { type: "MATCHING_INFO",
-              instruction: "Reading Passage 2 has seven paragraphs, A-G. Which paragraph contains the following information?",
-              subInstruction: "NB You may use any letter more than once.",
-              questions: [
-                { number: 14, text: "bad outcomes for a forest when people focus only on its financial reward", answer: "B" },
-                { number: 15, text: "reference to the aspects of any tree that contribute to its worth", answer: "A" },
-                { number: 16, text: "mention of the potential use of wood to help run vehicles", answer: "C" },
-                { number: 17, text: "examples of insects that attack trees", answer: "E" },
-                { number: 18, text: "an alternative name for trees that produce low-use wood", answer: "B" },
-              ]},
-            { type: "MATCHING_FEATURES",
-              instruction: "Match each purpose with the correct timber cut, A, B or C.",
-              subInstruction: "NB You may use any letter more than once.",
-              options: [
-                { label: "A", value: "a TSI Cut" },
-                { label: "B", value: "a Salvage Cut" },
-                { label: "C", value: "a Shelterwood Cut" },
-              ],
-              questions: [
-                { number: 19, text: "to remove trees that are diseased", answer: "B" },
-                { number: 20, text: "to generate income across a number of years", answer: "C" },
-                { number: 21, text: "to create a forest whose trees are close in age", answer: "C" },
-              ]},
-            { type: "SENTENCE_COMPLETION",
-              instruction: "Complete the sentences below.",
+            { type: "NOTE_COMPLETION",
+              instruction: "Complete the notes below.",
               subInstruction: "Choose ONE WORD ONLY from the passage for each answer.",
               questions: [
-                { number: 22, text: "Some dead wood is removed to avoid the possibility of ___.", answer: "fire" },
-                { number: 23, text: "The ___ from the tops of cut trees can help improve soil quality.", answer: "nutrients" },
-                { number: 24, text: "Some damaged trees should be left, as their ___ provide habitats for a range of creatures.", answer: "cavities" },
-                { number: 25, text: "Some trees that are small, such as ___, are a source of food for animals and insects.", answer: "hawthorn" },
-                { number: 26, text: "Any trees that are ___ species should be left to grow, as they add to the variety of species in the forest.", answer: "rare" },
+                { number: 8, text: "Mike and Bob Bryan made changes to the types of ___ used on their racket frames.", answer: "paint" },
+                { number: 9, text: "Players were not allowed to use the spaghetti-strung racket because of the amount of ___ it created.", answer: "topspin" },
+                { number: 10, text: "Changes to rackets can be regarded as being as important as players' diets or ___ they do.", answer: "training" },
+                { number: 11, text: "All rackets used to have natural strings made from the ___ of animals.", answer: "intestines" },
+                { number: 12, text: "Pete Sampras had metal ___ put into the frames of his rackets.", answer: "weights" },
+                { number: 13, text: "Gonçalo Oliveira changed the ___ on his racket handles.", answer: "grips" },
               ]},
           ],
         },
         {
-          id: "cam18_t1_p3", passageNumber: 3,
-          title: "Conquering Earth's space junk problem",
-          subtitle: "Satellites, rocket shards and collision debris are creating major traffic risks in orbit around the planet. Researchers are working to reduce these threats",
-          text: `A Last year, commercial companies, military and civil departments and amateurs sent more than 400 satellites into orbit, over four times the yearly average in the previous decade. Numbers could rise even more sharply if leading space companies follow through on plans to deploy hundreds to thousands of large constellations of satellites to space in the next few years.
+          id: "cam19_t1_p2", passageNumber: 2,
+          title: "The pirates of the ancient Mediterranean",
+          subtitle: "In the first and second millennia BCE, pirates sailed around the Mediterranean, attacking ships and avoiding pursuers",
+          text: `A When one mentions pirates, an image springs to most people's minds of a crew of misfits, daredevils and adventurers in command of a tall sailing ship in the Caribbean Sea. Yet from the first to the third millennium BCE, thousands of years before these swashbucklers began spreading fear across the Caribbean, pirates prowled the Mediterranean, raiding merchant ships and threatening vital trade routes. However, despite all efforts and the might of various ancient states, piracy could not be stopped. The situation remained unchanged for thousands of years. Only when the pirates directly threatened the interests of ancient Rome did the Roman Republic organise a massive fleet to eliminate piracy. Under the command of the Roman general Pompey, Rome eradicated piracy, transforming the Mediterranean into 'Mare Nostrum' (Our Sea).
 
-All that traffic can lead to disaster. Ten years ago, a US commercial Iridium satellite smashed into an inactive Russian communications satellite called Cosmos-2251, creating thousands of new pieces of space shrapnel that now threaten other satellites in low Earth orbit — the zone stretching up to 2,000 kilometres in altitude. Altogether, there are roughly 20,000 human-made objects in orbit, from working satellites to small rocket pieces. And satellite operators can't steer away from every potential crash, because each move consumes time and fuel that could otherwise be used for the spacecraft's main job.
+  B Although piracy in the Mediterranean is first recorded in ancient Egypt during the reign of Pharaoh Amenhotep III (c 1390–1353 BCE), it is reasonable to assume it predated this powerful civilisation. This is partly due to the great importance the Mediterranean held at this time, and partly due to its geography. While the Mediterranean region is predominantly fertile, some parts are rugged and hilly, even mountainous. In the ancient times, the inhabitants of these areas relied heavily on marine resources, including fish and salt. Most had their own boats, possessed good seafaring skills, and unsurpassed knowledge of the local coastline and sailing routes. Thus, it is not surprising that during hardships, these men turned to piracy. Geography itself further benefited the pirates, with the numerous coves along the coast providing places for them to hide their boats and strike undetected. Before the invention of ocean-going caravels in the 15th century, ships could not easily cross long distances over open water. Thus, in the ancient world most were restricted to a few well-known navigable routes that followed the coastline. Caught in a trap, a slow merchant ship laden with goods had no other option but to surrender. In addition, knowledge of the local area helped the pirates to avoid retaliation once a state fleet arrived.
 
-B Concern about space junk goes back to the beginning of the satellite era, but the number of objects in orbit is rising so rapidly that researchers are investigating new ways of attacking the problem. Several teams are trying to improve methods for assessing what is in orbit, so that satellite operators can work more efficiently in ever-more-crowded space. Some researchers are now starting to compile a massive data set that includes the best possible information on where everything is in orbit. Others are developing taxonomies of space — working on measuring properties such as the shape and size of an object, so that satellite operators know how much to worry about what's coming their way.
+  C One should also add that it was not unknown in the first and second millennia BCE for governments to resort to pirates' services, especially during wartime, employing their skills and numbers against their opponents. A pirate fleet would serve in the first wave of attack, preparing the way for the navy. Some of the regions were known for providing safe harbours to pirates, who, in return, boosted the local economy.
 
-The alternative, many say, is unthinkable. Just a few uncontrolled space crashes could generate enough debris to set off a runaway cascade of fragments, rendering near-Earth space unusable. 'If we go on like this, we will reach a point of no return,' says Carolin Frueh, an astrodynamical researcher at Purdue University in West Lafayette, Indiana.
+  D The first known record of a named group of Mediterranean pirates, made during the rule of ancient Egyptian Pharaoh Akhenaten (c 1353–1336 BCE), was in the Amarna Letters. These were extracts of diplomatic correspondence between the pharaoh and his allies, and covered many pressing issues, including piracy. It seems the pharaoh was troubled by two distinct pirate groups, the Lukka and the Sherden. Despite the Egyptian fleet's best efforts, the pirates continued to cause substantial disruption to regional commerce. In the letters, the king of Alashiya (modern Cyprus) rejected Akhenaten's claims of a connection with the Lukka (based in modern-day Turkey). The king assured Akhenaten he was prepared to punish any of his subjects involved in piracy.
 
-C Even as our ability to monitor space objects increases, so too does the total number of items in orbit. That means companies, governments and other players in space are collaborating in new ways to avoid a shared threat. International groups such as the Inter-Agency Space Debris Coordination Committee have developed guidelines on space sustainability. Those include inactivating satellites at the end of their useful life by venting pressurised materials or leftover fuel that might lead to explosions. The intergovernmental groups also advise lowering satellites deep enough into the atmosphere that they will burn up or disintegrate within 25 years. But so far, only about half of all missions have abided by this 25-year goal, says Holger Krag, head of the European Space Agency's space-debris office in Darmstadt, Germany. Operators of the planned large constellations of satellites say they will be responsible stewards in their enterprises in space, but Krag worries that problems could increase, despite their best intentions. 'What happens to those that fail or go bankrupt?' he asks. 'They are probably not going to spend money to remove their satellites from space.'
+  E The ancient Greek world's experience of piracy was different from that of Egyptian rulers. While Egypt's power was land-based, the ancient Greeks relied on the Mediterranean in almost all aspects of life, from trade to warfare. Interestingly, in his works the Iliad and the Odyssey, the ancient Greek writer Homer not only condones, but praises the lifestyle and actions of pirates. The opinion remained unchanged in the following centuries. The ancient Greek historian Thucydides, for instance, glorified pirates' daring attacks on ships or even cities. For Greeks, piracy was a part of everyday life. Even high-ranking members of the state were not beyond engaging in such activities. According to the Greek orator Demosthenes, in 355 BCE, Athenian ambassadors made a detour from their official travel to capture a ship sailing from Egypt, taking the wealth found onboard for themselves!
 
-D In theory, given the vastness of space, satellite operators should have plenty of room for all these missions to fly safely without ever nearing another object. So some scientists are tackling the problem of space junk by trying to find out where all the debris is to a high degree of precision. That would alleviate the need for many of the unnecessary manoeuvres that are carried out to avoid potential collisions. 'If you knew precisely where everything was, you would almost never have a problem,' says Marlon Sorge, a space-debris specialist at the Aerospace Corporation in El Segundo, California.
+  F The Greeks' liberal approach towards piracy does not mean they always tolerated it, but attempts to curtail piracy were hampered by the large number of pirates operating in the Mediterranean.
 
-E The field is called space traffic management, because it's similar to managing traffic on the roads or in the air. Think about a busy day at an airport, says Moriba Jah, an astrodynamicist at the University of Texas at Austin: planes line up in the sky, landing and taking off close to one another in a carefully choreographed routine. Air-traffic controllers know the location of the planes down to one metre in accuracy. The same can't be said for space debris. Not all objects in orbit are known, and even those included in databases are not tracked consistently.
-
-F An additional problem is that there is no authoritative catalogue that accurately lists the orbits of all known space debris. Jah illustrates this with a web-based database that he has developed. It draws on several sources, such as catalogues maintained by the US and Russian governments, to visualise where objects are in space. When he types in an identifier for a particular space object, the database draws a purple line to designate its orbit. Only this doesn't quite work for a number of objects, such as a Russian rocket body designated in the database as object number 32280. When Jah enters that number, the database draws two purple lines: the US and Russian sources contain two completely different orbits for the same object. Jah says that it is almost impossible to tell which is correct, unless a third source of information made it possible to cross-correlate.
-
-Jah describes himself as a space environmentalist: 'I want to make space a place that is safe to operate, that is free and useful for generations to come.' Until that happens, he argues, the space community will continue devolving into a tragedy in which all spaceflight operators are polluting a common resource.`,
+  G The rising power of ancient Rome required the Roman Republic to deal with piracy in the Mediterranean. While piracy was a serious issue for the Republic, Rome profited greatly from its existence. Pirate raids provided a steady source of slaves, essential for Rome's agriculture and mining industries. But this arrangement could work only while the pirates left Roman interests alone. Pirate attacks on grain ships, which were essential to Roman citizens, led to angry voices in the Senate, demanding punishment of the culprits. Rome, however, did nothing, further encouraging piracy. By the 1st century BCE, emboldened pirates kidnapped prominent Roman dignitaries, asking for a large ransom to be paid. Their most famous hostage was none other than Julius Caesar, captured in 75 BCE. By now, Rome was well aware that pirates had outlived their usefulness. The time had come for concerted action. In 67 BCE, a new law granted Pompey vast funds to combat the Mediterranean menace. Taking personal command, Pompey divided the entire Mediterranean into 13 districts, assigning a fleet and commander to each. After cleansing one district of pirates, the fleet would join another in the next district. The process continued until the entire Mediterranean was free of pirates. Although thousands of pirates died at the hands of Pompey's troops, as a long-term solution to the problem, many more were offered land in fertile areas located far from the sea. Instead of a maritime menace, Rome got productive farmers that further boosted its economy.`,
           questionGroups: [
             { type: "MATCHING_INFO",
-              instruction: "Reading Passage 3 has six sections, A-F. Which section contains the following information?",
+              instruction: "Reading Passage 2 has seven paragraphs, A–G. Which paragraph contains the following information?",
+              subInstruction: "NB You may use any letter more than once.",
               questions: [
-                { number: 27, text: "a reference to the cooperation that takes place to try and minimise risk", answer: "C" },
-                { number: 28, text: "an explanation of a person's aims", answer: "F" },
-                { number: 29, text: "a description of a major collision that occurred in space", answer: "A" },
-                { number: 30, text: "a comparison between tracking objects in space and the efficiency of a transportation system", answer: "E" },
-                { number: 31, text: "a reference to efforts to classify space junk", answer: "B" },
+                { number: 14, text: "a reference to a denial of involvement in piracy", answer: "D" },
+                { number: 15, text: "details of how a campaign to eradicate piracy was carried out", answer: "G" },
+                { number: 16, text: "a mention of the circumstances in which states in the ancient world would make use of pirates", answer: "C" },
+                { number: 17, text: "a reference to how people today commonly view pirates", answer: "A" },
+                { number: 18, text: "an explanation of how some people were encouraged not to return to piracy", answer: "G" },
+                { number: 19, text: "a mention of the need for many sailing vessels to stay relatively close to land", answer: "B" },
+              ]},
+            { type: "LIST_OPTIONS",
+              instruction: "Choose TWO letters, A–E. Which TWO of the following statements does the writer make about inhabitants of the Mediterranean region in the ancient world?",
+              options: [
+                { label: "A", text: "They often used stolen vessels to carry out pirate attacks." },
+                { label: "B", text: "They managed to escape capture by the authorities because they knew the area so well." },
+                { label: "C", text: "They paid for information about the routes merchant ships would take." },
+                { label: "D", text: "They depended more on the sea for their livelihood than on farming." },
+                { label: "E", text: "They stored many of the goods taken in pirate attacks in coves along the coastline." },
+              ],
+              questions: [
+                { number: 20, text: "First answer (either order)", answer: "B" },
+                { number: 21, text: "Second answer (either order)", answer: "D" },
+              ]},
+            { type: "LIST_OPTIONS",
+              instruction: "Choose TWO letters, A–E. Which TWO of the following statements does the writer make about piracy and ancient Greece?",
+              options: [
+                { label: "A", text: "The state estimated that very few people were involved in piracy." },
+                { label: "B", text: "Attitudes towards piracy changed shortly after the Iliad and the Odyssey were written." },
+                { label: "C", text: "Important officials were known to occasionally take part in piracy." },
+                { label: "D", text: "Every citizen regarded pirate attacks on cities as unacceptable." },
+                { label: "E", text: "A favourable view of piracy is evident in certain ancient Greek texts." },
+              ],
+              questions: [
+                { number: 22, text: "First answer (either order)", answer: "C" },
+                { number: 23, text: "Second answer (either order)", answer: "E" },
               ]},
             { type: "SUMMARY_COMPLETION",
               instruction: "Complete the summary below.",
               subInstruction: "Choose ONE WORD ONLY from the passage for each answer.",
-              summaryTitle: "The Inter-Agency Space Debris Coordination Committee",
               questions: [
-                { number: 32, text: "The committee gives advice on how the ___ of space can be achieved.", answer: "sustainability" },
-                { number: 33, text: "When satellites are no longer active, any unused ___ or pressurised material that could cause explosions should be removed.", answer: "fuel" },
-                { number: 34, text: "Unused fuel could cause ___ and should be removed.", answer: "explosions" },
-                { number: 35, text: "Although operators of large satellite constellations accept their obligations as stewards of space, Holger Krag points out that operators that become ___ are unlikely to prioritise removing their satellites from space.", answer: "bankrupt" },
+                { number: 24, text: "Attacks on vessels transporting ___ to Rome resulted in calls for punishment for the pirates responsible.", answer: "grain" },
+                { number: 25, text: "... resulted in calls for ___ for the pirates responsible.", answer: "punishment" },
+                { number: 26, text: "Some pirates demanded a ___ for the return of the Roman officials they captured.", answer: "ransom" },
               ]},
-            { type: "MATCHING_FEATURES",
-              instruction: "Match each statement with the correct person, A, B, C or D.",
-              subInstruction: "NB You may use any letter more than once.",
+          ],
+        },
+        {
+          id: "cam19_t1_p3", passageNumber: 3,
+          title: "The persistence and peril of misinformation",
+          subtitle: "Brian Southwell looks at how human brains verify information and discusses some of the challenges of battling widespread falsehoods",
+          text: `Misinformation — both deliberately promoted and accidentally shared — is perhaps an inevitable part of the world in which we live, but it is not a new problem. People likely have lied to one another for roughly as long as verbal communication has existed. Deceiving others can offer an apparent opportunity to gain strategic advantage, to motivate others to action, or even to protect interpersonal bonds. Moreover, people inadvertently have been sharing inaccurate information with one another for thousands of years.
+
+  However, we currently live in an era in which technology enables information to reach large audiences distributed across the globe, and thus the potential for immediate and widespread effects from misinformation now looms larger than in the past. Yet the means to correct misinformation might, over time, be found in those same patterns of mass communication and of the facilitated spread of information.
+
+  The main worry regarding misinformation is its potential to unduly influence attitudes and behavior, leading people to think and act differently than they would if they were correctly informed, as suggested by the research teams of Stephan Lewandowsky of the University of Bristol and Elizabeth Marsh of Duke University, among others. In other words, we worry that misinformation might lead people to hold misperceptions (or false beliefs) and that these misperceptions, especially when they occur among large groups of people, may have detrimental, downstream consequences for health, social harmony, and the political climate.
+
+  At least three observations related to misinformation in the contemporary mass-media environment warrant the attention of researchers, policy makers, and really everyone who watches television, listens to the radio, or reads information online. First of all, people who encounter misinformation tend to believe it, at least initially. Secondly, electronic and print media often do not block many types of misinformation before it appears in content available to large audiences. Thirdly, countering misinformation once it has enjoyed wide exposure can be a resource-intensive effort.
+
+  Knowing what happens when people initially encounter misinformation holds tremendous importance for estimating the potential for subsequent problems. Although it is fairly routine for individuals to come across information that is false, the question of exactly how — and when — we mentally label information as true or false has garnered philosophical debate. The dilemma is neatly summarized by a contrast between how the 17th-century philosophers René Descartes and Baruch Spinoza described human information engagement, with conflicting predictions that only recently have been empirically tested in robust ways. Descartes argued that a person only accepts or rejects information after considering its truth or falsehood; Spinoza argued that people accept all encountered information (or misinformation) by default and then subsequently verify or reject it through a separate cognitive process. In recent decades, empirical evidence from the research teams of Erik Asp of the University of Chicago and Daniel Gilbert at Harvard University, among others, has supported Spinoza's account: people appear to encode all new information as if it were true, even if only momentarily, and later tag the information as being either true or false, a pattern that seems consistent with the observation that mental resources for skepticism physically reside in a different part of the brain than the resources used in perceiving and encoding.
+
+  What about our second observation that misinformation often can appear in electronic or print media without being preemptively blocked? In support of this, one might consider the nature of regulatory structures in the United States: regulatory agencies here tend to focus on post hoc detection of broadcast information. Organizations such as the Food and Drug Administration (FDA) offer considerable monitoring and notification functions, but these roles typically do not involve preemptive censoring. The FDA oversees direct-to-consumer prescription drug advertising, for example, and has developed mechanisms such as the 'Bad Ad' program, through which people can report advertising in apparent violation of FDA guidelines on drug risks. Such programs, although laudable and useful, do not keep false advertising off the airwaves. In addition, even misinformation that is successfully corrected can continue to affect attitudes.
+
+  This leads us to our third observation: a campaign to correct misinformation, even if rhetorically compelling, requires resources and planning to accomplish necessary reach and frequency. For corrective campaigns to be persuasive, audiences need to be able to comprehend them, which requires either effort to frame messages in ways that are accessible or effort to educate and sensitize audiences to the possibility of misinformation. That some audiences might be unaware of the potential for misinformation also suggests the utility of media literacy efforts as early as elementary school. Even with journalists and scholars pointing to the phenomenon of 'fake news', people do not distinguish between demonstrably false stories and those based in fact when scanning and processing written information.
+
+  We live at a time when widespread misinformation is common. Yet at this time many people also are passionately developing potential solutions and remedies. The journey forward undoubtedly will be a long and arduous one. Future remedies will require not only continued theoretical consideration but also the development and maintenance of consistent monitoring tools — and a recognition among fellow members of society that claims which find prominence in the media that are insufficiently based in scientific consensus and social reality should be countered. Misinformation arises as a result of human fallibility and human information needs. To overcome the worst effects of the phenomenon, we will need coordinated efforts over time, rather than any singular one-time panacea we could hope to offer.`,
+          questionGroups: [
+            { type: "MC",
+              instruction: "Choose the correct letter, A, B, C or D.",
+              questions: [
+                { number: 27, text: "What point does the writer make about misinformation in the first paragraph?",
+                  options: [
+                    { label: "A", text: "Misinformation is a relatively recent phenomenon." },
+                    { label: "B", text: "Some people find it easy to identify misinformation." },
+                    { label: "C", text: "Misinformation changes as it is passed from one person to another." },
+                    { label: "D", text: "There may be a number of reasons for the spread of misinformation." }],
+                  answer: "D" },
+                { number: 28, text: "What does the writer say about the role of technology?",
+                  options: [
+                    { label: "A", text: "It may at some point provide us with a solution to misinformation." },
+                    { label: "B", text: "It could fundamentally alter the way in which people regard information." },
+                    { label: "C", text: "It has changed the way in which organisations use misinformation." },
+                    { label: "D", text: "It has made it easier for people to check whether information is accurate." }],
+                  answer: "A" },
+                { number: 29, text: "What is the writer doing in the fourth paragraph?",
+                  options: [
+                    { label: "A", text: "comparing the different opinions people have of misinformation" },
+                    { label: "B", text: "explaining how the effects of misinformation have changed over time" },
+                    { label: "C", text: "outlining which issues connected with misinformation are significant today" },
+                    { label: "D", text: "describing the attitude of policy makers towards misinformation in the media" }],
+                  answer: "C" },
+                { number: 30, text: "What point does the writer make about regulation in the USA?",
+                  options: [
+                    { label: "A", text: "The guidelines issued by the FDA need to be simplified." },
+                    { label: "B", text: "Regulation does not affect people's opinions of new prescription drugs." },
+                    { label: "C", text: "The USA has more regulatory bodies than most other countries." },
+                    { label: "D", text: "Regulation fails to prevent misinformation from appearing in the media." }],
+                  answer: "D" },
+              ]},
+            { type: "SUMMARY_COMPLETION",
+              instruction: "Complete the summary using the list of phrases, A–J, below.",
               options: [
-                { label: "A", value: "Carolin Frueh" },
-                { label: "B", value: "Holger Krag" },
-                { label: "C", value: "Marlon Sorge" },
-                { label: "D", value: "Moriba Jah" },
+                { label: "A", text: "constant conflict" },
+                { label: "B", text: "additional evidence" },
+                { label: "C", text: "different locations" },
+                { label: "D", text: "experimental subjects" },
+                { label: "E", text: "short period" },
+                { label: "F", text: "extreme distrust" },
+                { label: "G", text: "frequent exposure" },
+                { label: "H", text: "mental operation" },
+                { label: "I", text: "dubious reason" },
+                { label: "J", text: "different ideas" },
               ],
               questions: [
-                { number: 36, text: "Knowing the exact location of space junk would help prevent any possible danger.", answer: "C" },
-                { number: 37, text: "Space should be available to everyone and should be preserved for the future.", answer: "D" },
-                { number: 38, text: "A recommendation regarding satellites is widely ignored.", answer: "B" },
-                { number: 39, text: "There is conflicting information about where some satellites are in space.", answer: "D" },
-                { number: 40, text: "There is a risk we will not be able to undo the damage that occurs in space.", answer: "A" },
+                { number: 31, text: "Although people have ___ to misinformation, there is debate about precisely how and when we label something as true or untrue.", answer: "G" },
+                { number: 32, text: "The philosophers Descartes and Spinoza had ___ about how people engage with information.", answer: "J" },
+                { number: 33, text: "Spinoza believed that a distinct ___ is involved in these stages.", answer: "H" },
+                { number: 34, text: "Recent research has provided ___ for Spinoza's theory.", answer: "B" },
+                { number: 35, text: "People accept all encountered information as if it were true, even if this is for an extremely ___.", answer: "E" },
+                { number: 36, text: "The resources for scepticism and the resources for perceiving and encoding are in ___ in the brain.", answer: "C" },
+              ]},
+            { type: "YNNG",
+              instruction: "Do the following statements agree with the claims of the writer in Reading Passage 3?",
+              subInstruction: "Write YES if it agrees, NO if it contradicts, NOT GIVEN if impossible to say.",
+              questions: [
+                { number: 37, text: "Campaigns designed to correct misinformation will fail to achieve their purpose if people are unable to understand them.", answer: "YES" },
+                { number: 38, text: "Attempts to teach elementary school students about misinformation have been opposed.", answer: "NOT GIVEN" },
+                { number: 39, text: "It may be possible to overcome the problem of misinformation in a relatively short period.", answer: "NO" },
+                { number: 40, text: "The need to keep up with new information is hugely exaggerated in today's world.", answer: "NOT GIVEN" },
               ]},
           ],
         },
       ]},
+      // listening: { ... } — TODO: to be added later
     }],
   },
 ];
@@ -1136,7 +1180,7 @@ function HomePage({ user, onSelectTest, onSelectType, onRequireLogin, onOpenStat
                     <div style={{ fontSize: 11, color: "#64748b", marginTop: 2 }}>{count} soal • <span style={{ color: "#F59E0B" }}>1 🔑</span></div>
                   </div>
                 </div>
-
+                <div style={{ fontSize: 11, color: "#64748b", lineHeight: 1.4, paddingLeft: 56, marginTop: -36, marginBottom: 0 }}></div>
                 <div style={{ fontSize: 11, color: "#64748b", lineHeight: 1.4 }}>{type.desc}</div>
               </button>
             );
