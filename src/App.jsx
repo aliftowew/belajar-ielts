@@ -568,6 +568,165 @@ TOM: Same. We should book a study room together next week.`,
       // listening: { ... } — TODO: to be added later
     }],
   },
+  {
+    id: "cam18", book: 18, title: "Cambridge IELTS 18", type: "Academic",
+    tests: [{
+      id: "cam18_t1", testNumber: 1,
+      reading: { passages: [
+        {
+          id: "cam18_t1_p1", passageNumber: 1,
+          title: "Urban farming",
+          subtitle: "In Paris, urban farmers are trying a soil-free approach to agriculture that uses less space and fewer resources. Could it help cities face the threats to our food supplies?",
+          text: `On top of a striking new exhibition hall in southern Paris, the world's largest urban rooftop farm has started to bear fruit. Strawberries that are small, intensely flavoured and resplendently red sprout abundantly from large plastic tubes. Peer inside and you see the tubes are completely hollow, the roots of dozens of strawberry plants dangling down inside them. From identical vertical tubes nearby burst row upon row of lettuces; near those are aromatic herbs, such as basil, sage and peppermint. Opposite, in narrow, horizontal trays packed not with soil but with coconut fibre, grow cherry tomatoes, shiny aubergines and brightly coloured chards.
+
+  Pascal Hardy, an engineer and sustainable development consultant, began experimenting with vertical farming and aeroponic growing towers — as the soil-free plastic tubes are known — on his Paris apartment block roof five years ago. The urban rooftop space above the exhibition hall is somewhat bigger: 14,000 square metres and almost exactly the size of a couple of football pitches. Already, the team of young urban farmers who tend it have picked, in one day, 3,000 lettuces and 150 punnets of strawberries. When the remaining two thirds of the vast open area are in production, 20 staff will harvest up to 1,000 kg of perhaps 35 different varieties of fruit and vegetables, every day. 'We're not ever, obviously, going to feed the whole city this way,' cautions Hardy. 'In the urban environment you're working with very significant practical constraints, clearly, on what you can do and where. But if enough unused space can be developed like this, there's no reason why you shouldn't eventually target maybe between 5% and 10% of consumption.'
+
+  Perhaps most significantly, however, this is a real-life showcase for the work of Hardy's flourishing urban agriculture consultancy, Agripolis, which is currently fielding enquiries from around the world to design, build and equip a new breed of soil-free inner-city farm. 'The method's advantages are many,' he says. 'First, I don't much like the fact that most of the fruit and vegetables we eat have been treated with something like 17 different pesticides, or that the intensive farming techniques that produced them are such huge generators of greenhouse gases. I don't much like the fact, either, that they've travelled an average of 2,000 refrigerated kilometres to my plate, that their quality is so poor, because the varieties are selected for their capacity to withstand such substantial journeys, or that 80% of the price I pay goes to wholesalers and transport companies, not the producers.'
+
+  Produce grown using this soil-free method, on the other hand — which relies solely on a small quantity of water, enriched with organic nutrients, pumped around a closed circuit of pipes, towers and trays — is 'produced up here, and sold locally, just down there. It barely travels at all,' Hardy says. 'You can select crop varieties for their flavour, not their resistance to the transport and storage chain, and you can pick them when they're really at their best, and not before.' No soil is exhausted, and the water that gently showers the plants' roots every 12 minutes is recycled, so the method uses 90% less water than a classic intensive farm for the same yield.
+
+  Urban farming is not, of course, a new phenomenon. Inner-city agriculture is booming from Shanghai to Detroit and Tokyo to Bangkok. Strawberries are being grown in disused shipping containers, mushrooms in underground carparks. Aeroponic farming, he says, is 'virtuous'. The equipment weighs little, can be installed on almost any flat surface and is cheap to buy: roughly €100 to €150 per square metre. It is cheap to run, too, consuming a tiny fraction of the electricity used by some techniques.
+
+  Produce grown this way typically sells at prices that, while generally higher than those of classic intensive agriculture, are lower than soil-based organic growers. There are limits to what farmers can grow this way, of course, and much of the produce is suited to the summer months. 'Root vegetables we cannot do, at least not yet,' he says. 'Radishes are OK, but carrots, potatoes, that kind of thing — the roots are simply too long. Fruit trees are obviously not an option. And beans tend to take up a lot of space for not much return.' Nevertheless, urban farming of the kind being practised in Paris is one part of a bigger and fast-changing picture that is bringing food production closer to our lives.`,
+          questionGroups: [
+            { type: "SENTENCE_COMPLETION",
+              instruction: "Complete the sentences below.",
+              subInstruction: "Choose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer.",
+              questions: [
+                { number: 1, text: "Vertical tubes are used to grow strawberries, ___ and herbs.", answer: "lettuces" },
+                { number: 2, text: "There will eventually be a daily harvest of as much as ___ weight of fruit and vegetables.", answer: "1,000 kg" },
+                { number: 3, text: "It may be possible that the farm's produce will account for as much as 10% of the city's ___ overall.", answer: "consumption" },
+              ]},
+            { type: "NOTE_COMPLETION",
+              instruction: "Complete the table below — Intensive farming versus aeroponic urban farming.",
+              subInstruction: "Choose ONE WORD ONLY from the passage for each answer.",
+              questions: [
+                { number: 4, text: "Intensive farming — Growth techniques pollute air and use many ___.", answer: "pesticides" },
+                { number: 5, text: "Intensive farming — Selection: varieties chosen that can survive long ___.", answer: "journeys" },
+                { number: 6, text: "Intensive farming — ___ receive very little of overall income.", answer: "producers" },
+                { number: 7, text: "Aeroponic urban farming — Selection: produce chosen because of its ___.", answer: "flavour" },
+              ]},
+            { type: "TFNG",
+              instruction: "Do the following statements agree with the information given in Reading Passage 1?",
+              subInstruction: "Write TRUE if agrees, FALSE if contradicts, NOT GIVEN if no information.",
+              questions: [
+                { number: 8, text: "Urban farming can take place above or below ground.", answer: "TRUE" },
+                { number: 9, text: "Some of the equipment used in aeroponic farming can be made by hand.", answer: "NOT GIVEN" },
+                { number: 10, text: "Urban farming relies more on electricity than some other types of farming.", answer: "FALSE" },
+                { number: 11, text: "Fruit and vegetables grown on an aeroponic urban farm are cheaper than traditionally grown organic produce.", answer: "TRUE" },
+                { number: 12, text: "Most produce can be grown on an aeroponic urban farm at any time of the year.", answer: "FALSE" },
+                { number: 13, text: "Beans take longer to grow on an urban farm than other vegetables.", answer: "NOT GIVEN" },
+              ]},
+          ],
+        },
+        {
+          id: "cam18_t1_p2", passageNumber: 2,
+          title: "Forest management in Pennsylvania, USA",
+          subtitle: "How managing low-quality wood (also known as low-use wood) for bioenergy can encourage sustainable forest management",
+          text: `A A tree's 'value' depends on several factors including its species, size, form, condition, quality, function, and accessibility, and depends on the management goals for a given forest. The same tree can be valued very differently by each person who looks at it. A large, straight black cherry tree has high value as timber to be cut into logs or made into furniture, but for a landowner more interested in wildlife habitat, the real value of that stem (or trunk) may be the food it provides to animals. Likewise, if the tree suffers from black knot disease, its value for timber decreases, but to a woodworker interested in making bowls, it brings an opportunity for a unique and beautiful piece of art.
+
+  B In the past, Pennsylvania landowners were solely interested in the value of their trees as high-quality timber. The norm was to remove the stems of highest quality and leave behind poorly formed trees that were not as well suited to the site where they grew. This practice, called 'high-grading', has left a legacy of 'low-use wood' in the forests. Some people even call these 'junk trees', and they are abundant in Pennsylvania. These trees have lower economic value for traditional timber markets, compete for growth with higher-value trees, shade out desirable regeneration and decrease the health of a stand leaving it more vulnerable to poor weather and disease. Management that specifically targets low-use wood can help landowners manage these forest health issues, and wood energy markets help promote this.
+
+  C Wood energy markets can accept less expensive wood material of lower quality than would be suitable for traditional timber markets. Most wood used for energy in Pennsylvania is used to produce heat or electricity through combustion. Many schools and hospitals use wood boiler systems to heat and power their facilities, many homes are primarily heated with wood, and some coal plants incorporate wood into their coal streams to produce electricity. Wood can also be gasified for electrical generation and can even be made into liquid fuels like ethanol and gasoline for lorries and cars. All these products are made primarily from low-use wood. Several tree- and plant-cutting approaches, which could greatly improve the long-term quality of a forest, focus strongly or solely on the use of wood for those markets.
+
+  D One such approach is called a Timber Stand Improvement (TSI) Cut. In a TSI Cut, really poor-quality tree and plant material is cut down to allow more space, light, and other resources to the highest-valued stems that remain. Removing invasive plants might be another primary goal of a TSI Cut. The stems that are left behind might then grow in size and develop more foliage and larger crowns or tops that produce more coverage for wildlife; they have a better chance to regenerate in a less crowded environment. TSI Cuts can be tailored to one farmer's specific management goals for his or her land.
+
+  E Another approach that might yield a high amount of low-use wood is a Salvage Cut. With the many pests and pathogens visiting forests including hemlock wooly adelgid, Asian longhorned beetle, emerald ash borer, and gypsy moth, to name just a few, it is important to remember that those working in the forests can help ease these issues through cutting procedures. These types of cut reduce the number of sick trees and seek to manage the future spread of a pest problem. They leave vigorous trees that have stayed healthy enough to survive the outbreak.
+
+  F A Shelterwood Cut, which only takes place in a mature forest that has already been thinned several times, involves removing all the mature trees when other seedlings have become established. This then allows the forester to decide which tree species are regenerated. It leaves a young forest where all trees are at a similar point in their growth. It can also be used to develop a two-tier forest so that there are two harvests and the money that comes in is spread out over a decade or more.
+
+  G Thinnings and dense and dead wood removal for fire prevention also center on the production of low-use wood. However, it is important to remember that some retention of what many would classify as low-use wood is very important. The tops of trees that have been cut down should be left on the site so that their nutrients cycle back into the soil. In addition, trees with many cavities are extremely important habitats for insect predators like woodpeckers, bats and small mammals. They help control problem insects and increase the health and resilience of the forest. It is also important to remember that not all small trees are low-use. For example, many species like hawthorn provide food for wildlife. Finally, rare species of trees in a forest should also stay behind as they add to its structural diversity.`,
+          questionGroups: [
+            { type: "MATCHING_INFO",
+              instruction: "Reading Passage 2 has seven paragraphs, A–G. Which paragraph contains the following information?",
+              subInstruction: "NB You may use any letter more than once.",
+              questions: [
+                { number: 14, text: "bad outcomes for a forest when people focus only on its financial reward", answer: "B" },
+                { number: 15, text: "reference to the aspects of any tree that contribute to its worth", answer: "A" },
+                { number: 16, text: "mention of the potential use of wood to help run vehicles", answer: "C" },
+                { number: 17, text: "examples of insects that attack trees", answer: "E" },
+                { number: 18, text: "an alternative name for trees that produce low-use wood", answer: "B" },
+              ]},
+            { type: "MATCHING_FEATURES",
+              instruction: "Look at the following purposes (Questions 19–21) and the list of timber cuts. Match each purpose with the correct timber cut, A, B or C.",
+              subInstruction: "NB You may use any letter more than once.",
+              options: [
+                { label: "A", value: "a TSI Cut" },
+                { label: "B", value: "a Salvage Cut" },
+                { label: "C", value: "a Shelterwood Cut" },
+              ],
+              questions: [
+                { number: 19, text: "to remove trees that are diseased", answer: "B" },
+                { number: 20, text: "to generate income across a number of years", answer: "C" },
+                { number: 21, text: "to create a forest whose trees are close in age", answer: "C" },
+              ]},
+            { type: "SENTENCE_COMPLETION",
+              instruction: "Complete the sentences below.",
+              subInstruction: "Choose ONE WORD ONLY from the passage for each answer.",
+              questions: [
+                { number: 22, text: "Some dead wood is removed to avoid the possibility of ___.", answer: "fire" },
+                { number: 23, text: "The ___ from the tops of cut trees can help improve soil quality.", answer: "nutrients" },
+                { number: 24, text: "Some damaged trees should be left, as their ___ provide habitats for a range of creatures.", answer: "cavities" },
+                { number: 25, text: "Some trees that are small, such as ___, are a source of food for animals and insects.", answer: "hawthorn" },
+                { number: 26, text: "Any trees that are ___ should be left to grow, as they add to the variety of species in the forest.", answer: "rare" },
+              ]},
+          ],
+        },
+        {
+          id: "cam18_t1_p3", passageNumber: 3,
+          title: "Conquering Earth's space junk problem",
+          subtitle: "Satellites, rocket shards and collision debris are creating major traffic risks in orbit around the planet. Researchers are working to reduce these threats",
+          text: `A Last year, commercial companies, military and civil departments and amateurs sent more than 400 satellites into orbit, over four times the yearly average in the previous decade. Numbers could rise even more sharply if leading space companies follow through on plans to deploy hundreds to thousands of large constellations of satellites to space in the next few years. All that traffic can lead to disaster. Ten years ago, a US commercial Iridium satellite smashed into an inactive Russian communications satellite called Cosmos-2251, creating thousands of new pieces of space shrapnel that now threaten other satellites in low Earth orbit — the zone stretching up to 2,000 kilometres in altitude. Altogether, there are roughly 20,000 human-made objects in orbit, from working satellites to small rocket pieces. And satellite operators can't steer away from every potential crash, because each move consumes time and fuel that could otherwise be used for the spacecraft's main job.
+
+  B Concern about space junk goes back to the beginning of the satellite era, but the number of objects in orbit is rising so rapidly that researchers are investigating new ways of attacking the problem. Several teams are trying to improve methods for assessing what is in orbit, so that satellite operators can work more efficiently in ever-more-crowded space. Some researchers are now starting to compile a massive data set that includes the best possible information on where everything is in orbit. Others are developing taxonomies of space debris — working on measuring properties such as the shape and size of an object, so that satellite operators know how much to worry about what's coming their way.
+
+  C The alternative, many say, is unthinkable. Just a few uncontrolled space crashes could generate enough debris to set off a runaway cascade of fragments, rendering near-Earth space unusable. 'If we go on like this, we will reach a point of no return,' says Carolin Frueh, an astrodynamical researcher at Purdue University in West Lafayette, Indiana. Even as our ability to monitor space objects increases, so too does the total number of items in orbit. That means companies, governments and other players in space are collaborating in new ways to avoid a shared threat. International groups such as the Inter-Agency Space Debris Coordination Committee have developed guidelines on space sustainability. Those include inactivating satellites at the end of their useful life by venting pressurised materials or leftover fuel that might lead to explosions. The intergovernmental groups also advise lowering satellites deep enough into the atmosphere that they will burn up or disintegrate within 25 years.
+
+  D But so far, only about half of all missions have abided by this 25-year goal, says Holger Krag, head of the European Space Agency's space-debris office in Darmstadt, Germany. Operators of the planned large constellations of satellites say they will be responsible stewards in their enterprises in space, but Krag worries that problems could increase, despite their best intentions. 'What happens to those that fail or go bankrupt?' he asks. 'They are probably not going to spend money to remove their satellites from space.'
+
+  E In theory, given the vastness of space, satellite operators should have plenty of room for all these missions to fly safely without ever nearing another object. So some scientists are tackling the problem of space junk by trying to find out where all the debris is to a high degree of precision. That would alleviate the need for many of the unnecessary manoeuvres that are carried out to avoid potential collisions. 'If you knew precisely where everything was, you would almost never have a problem,' says Marlon Sorge, a space-debris specialist at the Aerospace Corporation in El Segundo, California. The field is called space traffic management, because it's similar to managing traffic on the roads or in the air. Think about a busy day at an airport, says Moriba Jah, an astrodynamicist at the University of Texas at Austin: planes line up in the sky, landing and taking off close to one another in a carefully choreographed routine. Air-traffic controllers know the location of the planes down to one metre in accuracy. The same can't be said for space debris. Not all objects in orbit are known, and even those included in databases are not tracked consistently.
+
+  F An additional problem is that there is no authoritative catalogue that accurately lists the orbits of all known space debris. Jah illustrates this with a web-based database that he has developed. It draws on several sources, such as catalogues maintained by the US and Russian governments, to visualise where objects are in space. When he types in an identifier for a particular space object, the database draws a purple line to designate its orbit. Only this doesn't quite work for a number of objects, such as a Russian rocket body designated in the database as object number 32280. When Jah enters that number, the database draws two purple lines: the US and Russian sources contain two completely different orbits for the same object. Jah says that it is almost impossible to tell which is correct, unless a third source of information made it possible to cross-correlate. Jah describes himself as a space environmentalist: 'I want to make space a place that is safe to operate, that is free and useful for generations to come.' Until that happens, he argues, the space community will continue devolving into a tragedy in which all spaceflight operators are polluting a common resource.`,
+          questionGroups: [
+            { type: "MATCHING_INFO",
+              instruction: "Reading Passage 3 has six sections, A–F. Which section contains the following information?",
+              questions: [
+                { number: 27, text: "a reference to the cooperation that takes place to try and minimise risk", answer: "C" },
+                { number: 28, text: "an explanation of a person's aims", answer: "F" },
+                { number: 29, text: "a description of a major collision that occurred in space", answer: "A" },
+                { number: 30, text: "a comparison between tracking objects in space and the efficiency of a transportation system", answer: "E" },
+                { number: 31, text: "a reference to efforts to classify space junk", answer: "B" },
+              ]},
+            { type: "SUMMARY_COMPLETION",
+              instruction: "Complete the summary below — The Inter-Agency Space Debris Coordination Committee.",
+              subInstruction: "Choose ONE WORD ONLY from the passage for each answer.",
+              questions: [
+                { number: 32, text: "The committee gives advice on how the ___ of space can be achieved.", answer: "sustainability" },
+                { number: 33, text: "When satellites are no longer active, any unused ___ should be removed.", answer: "fuel" },
+                { number: 34, text: "Pressurised material could cause ___.", answer: "explosions" },
+                { number: 35, text: "Operators that become ___ are unlikely to prioritise removing their satellites from space.", answer: "bankrupt" },
+              ]},
+            { type: "MATCHING_FEATURES",
+              instruction: "Look at the following statements (Questions 36–40) and the list of people. Match each statement with the correct person, A, B, C or D.",
+              subInstruction: "NB You may use any letter more than once.",
+              options: [
+                { label: "A", value: "Carolin Frueh" },
+                { label: "B", value: "Holger Krag" },
+                { label: "C", value: "Marlon Sorge" },
+                { label: "D", value: "Moriba Jah" },
+              ],
+              questions: [
+                { number: 36, text: "Knowing the exact location of space junk would help prevent any possible danger.", answer: "C" },
+                { number: 37, text: "Space should be available to everyone and should be preserved for the future.", answer: "D" },
+                { number: 38, text: "A recommendation regarding satellites is widely ignored.", answer: "B" },
+                { number: 39, text: "There is conflicting information about where some satellites are in space.", answer: "D" },
+                { number: 40, text: "There is a risk we will not be able to undo the damage that occurs in space.", answer: "A" },
+              ]},
+          ],
+        },
+      ]},
+    }],
+  },
 ];
 
 // Combine reading + listening type maps for lookups
