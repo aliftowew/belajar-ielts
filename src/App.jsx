@@ -970,7 +970,7 @@ function HomePage({ user, onSelectTest, onSelectType, onRequireLogin, onOpenStat
                     <div style={{ fontSize: 11, color: "#64748b", marginTop: 2 }}>{count} soal • <span style={{ color: "#F59E0B" }}>1 🔑</span></div>
                   </div>
                 </div>
-                <div style={{ fontSize: 11, color: "#64748b", lineHeight: 1.4, paddingLeft: 56, marginTop: -36, marginBottom: 0 }}></div>
+
                 <div style={{ fontSize: 11, color: "#64748b", lineHeight: 1.4 }}>{type.desc}</div>
               </button>
             );
