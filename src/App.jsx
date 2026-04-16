@@ -740,6 +740,13 @@ const STORAGE_KEY = "ielts_practice_user";
 const HISTORY_KEY = "ielts_practice_history";
 const DAILY_KEYS = 2;
 
+// ============================================================
+// FEATURE FLAG — set KEYS_ENABLED = true to re-activate the
+// daily-keys + donation model. When false, everything is free
+// (no login required, no key counters, no donation modal).
+// ============================================================
+const KEYS_ENABLED = false;
+
 function getToday() { return new Date().toISOString().split('T')[0]; }
 function daysBetween(d1, d2) {
   const ms = new Date(d2) - new Date(d1);
@@ -851,7 +858,7 @@ function LoginModal({ onLogin, onClose }) {
         <div style={{ textAlign: "center", marginBottom: 24 }}>
           <div style={{ width: 64, height: 64, borderRadius: 16, background: "linear-gradient(135deg, #3B82F6, #8B5CF6)", display: "inline-flex", alignItems: "center", justifyContent: "center", marginBottom: 16, fontSize: 28, fontWeight: 800, color: "white" }}>IE</div>
           <h2 style={{ fontSize: 24, fontWeight: 800, marginBottom: 8 }}>Selamat Datang!</h2>
-          <p style={{ color: "#94a3b8", fontSize: 14 }}>Login untuk dapat 2 kunci gratis setiap hari</p>
+          <p style={{ color: "#94a3b8", fontSize: 14 }}>{KEYS_ENABLED ? "Login untuk dapat 2 kunci gratis setiap hari" : "Login untuk menyimpan progress & streak (opsional)"}</p>
         </div>
 
         <div style={{ background: "rgba(59,130,246,0.1)", border: "1px solid rgba(59,130,246,0.2)", borderRadius: 10, padding: 12, marginBottom: 20, fontSize: 12, color: "#94a3b8", lineHeight: 1.6 }}>
@@ -969,18 +976,22 @@ function UserMenu({ user, onLogout, onDonate }) {
             <div style={{ fontWeight: 600, fontSize: 13 }}>{user.name}</div>
             <div style={{ fontSize: 11, color: "#64748b" }}>{user.email}</div>
           </div>
-          <div style={{ padding: "10px 12px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-            <div style={{ display: "flex", alignItems: "center", gap: 6, fontSize: 13 }}>
-              <Icon name="key" size={14} color="#F59E0B" />
-              <span>Kunci tersisa</span>
-            </div>
-            <strong style={{ color: user.unlimited ? "#10B981" : "#F59E0B" }}>{user.unlimited ? "∞" : user.keys}</strong>
-          </div>
-          {!user.unlimited && (
-            <button onClick={() => { setOpen(false); onDonate(); }}
-              style={{ width: "100%", padding: "10px 12px", marginTop: 4, borderRadius: 8, border: "none", background: "linear-gradient(135deg, #F59E0B, #EF4444)", color: "white", cursor: "pointer", fontSize: 13, fontWeight: 600 }}>
-              🔓 Unlock Unlimited
-            </button>
+          {KEYS_ENABLED && (
+            <>
+              <div style={{ padding: "10px 12px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                <div style={{ display: "flex", alignItems: "center", gap: 6, fontSize: 13 }}>
+                  <Icon name="key" size={14} color="#F59E0B" />
+                  <span>Kunci tersisa</span>
+                </div>
+                <strong style={{ color: user.unlimited ? "#10B981" : "#F59E0B" }}>{user.unlimited ? "∞" : user.keys}</strong>
+              </div>
+              {!user.unlimited && (
+                <button onClick={() => { setOpen(false); onDonate(); }}
+                  style={{ width: "100%", padding: "10px 12px", marginTop: 4, borderRadius: 8, border: "none", background: "linear-gradient(135deg, #F59E0B, #EF4444)", color: "white", cursor: "pointer", fontSize: 13, fontWeight: 600 }}>
+                  🔓 Unlock Unlimited
+                </button>
+              )}
+            </>
           )}
           <button onClick={() => { setOpen(false); onLogout(); }}
             style={{ width: "100%", padding: "10px 12px", marginTop: 4, borderRadius: 8, border: "none", background: "transparent", color: "#94a3b8", cursor: "pointer", fontSize: 13, textAlign: "left" }}>
@@ -1286,7 +1297,7 @@ function HomePage({ user, onSelectTest, onSelectType, onRequireLogin, onOpenStat
       </div>
 
       {/* How keys work card */}
-      {user && (
+      {user && KEYS_ENABLED && (
         <div style={{ ...styles.card, padding: "20px 24px", marginBottom: 32, background: "linear-gradient(135deg, rgba(245,158,11,0.05), rgba(239,68,68,0.05))", border: "1px solid rgba(245,158,11,0.15)", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 16 }}>
           <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
             <div style={{ width: 48, height: 48, borderRadius: 12, background: "rgba(245,158,11,0.15)", display: "flex", alignItems: "center", justifyContent: "center", color: "#F59E0B" }}>
@@ -1308,7 +1319,7 @@ function HomePage({ user, onSelectTest, onSelectType, onRequireLogin, onOpenStat
           <span style={{ width: 4, height: 28, borderRadius: 2, background: section === "listening" ? "linear-gradient(180deg, #10B981, #059669)" : "linear-gradient(180deg, #3B82F6, #8B5CF6)" }} />
           Latihan per Tipe Soal {section === "listening" ? "(Listening)" : "(Reading)"}
         </h2>
-        <p style={{ fontSize: 13, color: "#64748b", marginBottom: 20, marginLeft: 14 }}>{section === "listening" ? "7 tipe soal Listening" : "14 tipe soal Reading"} • 1 kunci per sesi</p>
+        <p style={{ fontSize: 13, color: "#64748b", marginBottom: 20, marginLeft: 14 }}>{section === "listening" ? "7 tipe soal Listening" : "14 tipe soal Reading"}{KEYS_ENABLED ? " • 1 kunci per sesi" : ""}</p>
 
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: 12 }}>
           {(section === "listening" ? listeningTypes : readingTypes).map(type => {
@@ -1326,7 +1337,7 @@ function HomePage({ user, onSelectTest, onSelectType, onRequireLogin, onOpenStat
 
             return (
               <button key={type.id} disabled={!available}
-                onClick={() => { if (!user) onRequireLogin(); else onSelectType(type.id); }}
+                onClick={() => { if (!user && KEYS_ENABLED) onRequireLogin(); else onSelectType(type.id); }}
                 style={{ ...styles.card, padding: "16px 18px", cursor: available ? "pointer" : "not-allowed", opacity: available ? 1 : 0.4, textAlign: "left", border: "1px solid rgba(148, 163, 184, 0.1)", transition: "all 0.2s ease", background: "rgba(30, 41, 59, 0.6)" }}
                 onMouseEnter={e => { if (available) { e.currentTarget.style.borderColor = type.color; e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = `0 6px 20px ${type.color}25`; } }}
                 onMouseLeave={e => { e.currentTarget.style.borderColor = "rgba(148, 163, 184, 0.1)"; e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = "none"; }}>
@@ -1336,10 +1347,9 @@ function HomePage({ user, onSelectTest, onSelectType, onRequireLogin, onOpenStat
                   </div>
                   <div style={{ flex: 1, minWidth: 0 }}>
                     <div style={{ fontWeight: 700, fontSize: 14, color: "#e2e8f0", lineHeight: 1.3 }}>{type.short}</div>
-                    <div style={{ fontSize: 11, color: "#64748b", marginTop: 2 }}>{count} soal • <span style={{ color: "#F59E0B" }}>1 🔑</span></div>
+                    <div style={{ fontSize: 11, color: "#64748b", marginTop: 2 }}>{count} soal{KEYS_ENABLED && <> • <span style={{ color: "#F59E0B" }}>1 🔑</span></>}</div>
                   </div>
                 </div>
-                <div style={{ fontSize: 11, color: "#64748b", lineHeight: 1.4, paddingLeft: 56, marginTop: -36, marginBottom: 0 }}></div>
                 <div style={{ fontSize: 11, color: "#64748b", lineHeight: 1.4 }}>{type.desc}</div>
               </button>
             );
@@ -1354,7 +1364,7 @@ function HomePage({ user, onSelectTest, onSelectType, onRequireLogin, onOpenStat
           Full Test {section === "listening" ? "(Listening)" : "(Reading)"}
         </h2>
         <p style={{ fontSize: 13, color: "#64748b", marginBottom: 20, marginLeft: 14 }}>
-          {section === "listening" ? "Simulasi listening 30 menit, 4 sections, 40 soal" : "Simulasi reading 60 menit, 3 passages, 40 soal"} • 2 kunci per sesi
+          {section === "listening" ? "Simulasi listening 30 menit, 4 sections, 40 soal" : "Simulasi reading 60 menit, 3 passages, 40 soal"}{KEYS_ENABLED ? " • 2 kunci per sesi" : ""}
         </p>
 
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: 16 }}>
@@ -1368,7 +1378,7 @@ function HomePage({ user, onSelectTest, onSelectType, onRequireLogin, onOpenStat
             const accent = section === "listening" ? "#10B981" : "#3B82F6";
             return (
               <div key={test.id} style={{ ...styles.card, cursor: "pointer", transition: "all 0.2s ease" }}
-                onClick={() => { if (!user) onRequireLogin(); else onSelectTest(book.id, test.id, section); }}
+                onClick={() => { if (!user && KEYS_ENABLED) onRequireLogin(); else onSelectTest(book.id, test.id, section); }}
                 onMouseEnter={e => { e.currentTarget.style.borderColor = accent; e.currentTarget.style.transform = "translateY(-3px)"; e.currentTarget.style.boxShadow = `0 8px 30px ${accent}25`; }}
                 onMouseLeave={e => { e.currentTarget.style.borderColor = "rgba(148, 163, 184, 0.1)"; e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = "none"; }}>
                 <div style={{ padding: "20px 24px" }}>
@@ -1395,10 +1405,12 @@ function HomePage({ user, onSelectTest, onSelectType, onRequireLogin, onOpenStat
                     })}
                   </div>
 
-                  <div style={{ marginTop: 16, paddingTop: 12, borderTop: "1px solid rgba(148,163,184,0.1)", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                    <span style={{ fontSize: 12, color: "#F59E0B", fontWeight: 600, display: "flex", alignItems: "center", gap: 4 }}>
-                      <Icon name="key" size={12} /> 2 kunci
-                    </span>
+                  <div style={{ marginTop: 16, paddingTop: 12, borderTop: "1px solid rgba(148,163,184,0.1)", display: "flex", justifyContent: KEYS_ENABLED ? "space-between" : "flex-end", alignItems: "center" }}>
+                    {KEYS_ENABLED && (
+                      <span style={{ fontSize: 12, color: "#F59E0B", fontWeight: 600, display: "flex", alignItems: "center", gap: 4 }}>
+                        <Icon name="key" size={12} /> 2 kunci
+                      </span>
+                    )}
                     <span style={{ fontSize: 12, color: accent, fontWeight: 600 }}>Mulai →</span>
                   </div>
                 </div>
@@ -1585,7 +1597,7 @@ function TestPage({ bookId, testId, questionType, mode = "reading", onBack }) {
                 ))}
 
                 {group.type === "MATCHING_ENDINGS" && group.endings && (
-                  <div style={{ background: "rgba(15, 23, 42, 0.5)", borderRadius: 10, padding: 16, marginTop: -16, marginBottom: 16, border: "1px solid rgba(148, 163, 184, 0.1)" }}>
+                  <div style={{ background: "rgba(15, 23, 42, 0.5)", borderRadius: 10, padding: 16, marginTop: 4, marginBottom: 16, border: "1px solid rgba(148, 163, 184, 0.1)" }}>
                     <div style={{ fontSize: 12, fontWeight: 600, color: "#64748b", marginBottom: 8, textTransform: "uppercase", letterSpacing: 1 }}>Options</div>
                     {group.endings.map(e => (
                       <div key={e.label} style={{ display: "flex", gap: 8, marginBottom: 6, fontSize: 13, color: "#94a3b8" }}>
@@ -1596,7 +1608,7 @@ function TestPage({ bookId, testId, questionType, mode = "reading", onBack }) {
                 )}
 
                 {(group.type === "MATCHING_FEATURES" || group.type === "L_MATCHING") && group.options && (
-                  <div style={{ background: "rgba(15, 23, 42, 0.5)", borderRadius: 10, padding: 16, marginTop: -16, marginBottom: 16, border: "1px solid rgba(148, 163, 184, 0.1)" }}>
+                  <div style={{ background: "rgba(15, 23, 42, 0.5)", borderRadius: 10, padding: 16, marginTop: 4, marginBottom: 16, border: "1px solid rgba(148, 163, 184, 0.1)" }}>
                     <div style={{ fontSize: 12, fontWeight: 600, color: "#64748b", marginBottom: 8, textTransform: "uppercase", letterSpacing: 1 }}>List</div>
                     {group.options.map(o => (
                       <div key={o.label} style={{ display: "flex", gap: 8, marginBottom: 6, fontSize: 13, color: "#94a3b8" }}>
@@ -1799,6 +1811,7 @@ export default function App() {
   useEffect(() => { setUser(loadUser()); }, []);
 
   const consumeKeys = (count) => {
+    if (!KEYS_ENABLED) return true;
     if (!user) return false;
     if (user.unlimited) return true;
     if (user.keys < count) {
@@ -1838,7 +1851,7 @@ export default function App() {
         <div style={{ display: "flex", gap: 12, alignItems: "center" }}>
           {user ? (
             <>
-              <KeyDisplay user={user} onClick={() => !user.unlimited && setShowDonate(true)} />
+              {KEYS_ENABLED && <KeyDisplay user={user} onClick={() => !user.unlimited && setShowDonate(true)} />}
               <UserMenu user={user} onLogout={handleLogout} onDonate={() => setShowDonate(true)} />
             </>
           ) : (
@@ -1851,14 +1864,14 @@ export default function App() {
 
       {view === "home" && (
         <HomePage user={user} onSelectTest={handleSelectTest} onSelectType={handleSelectType}
-          onRequireLogin={() => setShowLogin(true)} onOpenStats={() => user ? setView("stats") : setShowLogin(true)} />
+          onRequireLogin={() => setShowLogin(true)} onOpenStats={() => (!KEYS_ENABLED || user) ? setView("stats") : setShowLogin(true)} />
       )}
       {view === "stats" && <StatsPage user={user} onBack={handleBack} />}
       {view === "test" && <TestPage bookId={selectedBook} testId={selectedTest} questionType={selectedType} mode={selectedMode} onBack={handleBack} />}
 
       {showLogin && <LoginModal onLogin={handleLogin} onClose={() => setShowLogin(false)} />}
-      {showDonate && user && <DonateModal user={user} onClose={() => setShowDonate(false)} onUnlock={(u) => { setUser(u); setShowDonate(false); }} />}
-      {showNoKeys && <NoKeysModal {...showNoKeys} onClose={() => setShowNoKeys(null)} onDonate={() => { setShowNoKeys(null); setShowDonate(true); }} />}
+      {KEYS_ENABLED && showDonate && user && <DonateModal user={user} onClose={() => setShowDonate(false)} onUnlock={(u) => { setUser(u); setShowDonate(false); }} />}
+      {KEYS_ENABLED && showNoKeys && <NoKeysModal {...showNoKeys} onClose={() => setShowNoKeys(null)} onDonate={() => { setShowNoKeys(null); setShowDonate(true); }} />}
     </div>
   );
 }
